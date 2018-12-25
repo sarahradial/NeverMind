@@ -13,6 +13,7 @@ import ARKit
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
+    let config = ARWorldTrackingConfiguration()
     
     override func viewDidLoad() {
         super.viewDidLoad()
