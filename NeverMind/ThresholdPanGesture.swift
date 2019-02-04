@@ -1,0 +1,57 @@
+//
+//  ThresholdPanGesture.swift
+//  NeverMind
+//
+//  Created by Sarah Yan on 1/6/19.
+//  Copyright © 2019 MIT Media Labs: Fluid Interfaces. All rights reserved.
+//
+
+import UIKit.UIGestureRecognizerSubclass
+
+class ThresholdPanGesture: UIPanGestureRecognizer {
+    
+    // indicates whether the currently active gesture has exceeeded the threshold.
+    private(set) var isThresholdExceeded = false
+    
+    // observe when the gesture's `state` changes to reset the threshold.
+    override var state: UIGestureRecognizer.State {
+        didSet {
+            switch state {
+            case .began, .changed:
+                break
+                
+            default:
+                // Reset threshold check.
+                isThresholdExceeded = false
+            }
+        }
+    }
+    
+    // returns the threshold value that should be used dependent on the number of touches.
+    private static func threshold(forTouchCount count: Int) -> CGFloat {
+        switch count {
+        case 1: return 30
+            
+        // use a higher threshold for gestures using more than 1 finger. This gives other gestures priority.
+        default: return 60
+        }
+    }
+    
+    // - Tag: touchesMoved
+    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent) {
+        super.touchesMoved(touches, with: event)
+        
+        let translationMagnitude = translation(in: view).length
+        
+        // adjust the threshold based on the number of touches being used.
+        let threshold = ThresholdPanGesture.threshold(forTouchCount: touches.count)
+        
+        if !isThresholdExceeded && translationMagnitude > threshold {
+            isThresholdExceeded = true
+            
+            // set the overall translation to zero as the gesture should now begin.
+            setTranslation(.zero, in: view)
+        }
+    }
+}
+

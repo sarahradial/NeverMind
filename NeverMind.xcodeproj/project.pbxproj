@@ -7,14 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		266CDD8621FB8246009B161D /* VirtualObjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD8521FB8246009B161D /* VirtualObjectLoader.swift */; };
+		266CDD882208CCB5009B161D /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD872208CCB5009B161D /* ViewController+ARSCNViewDelegate.swift */; };
+		266CDD8A2208D16F009B161D /* ViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD892208D16F009B161D /* ViewController+Actions.swift */; };
+		266CDD8C2208D1C2009B161D /* ViewController+ObjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD8B2208D1C2009B161D /* ViewController+ObjectSelection.swift */; };
+		266CDD8E2208D222009B161D /* VirtualObjectInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD8D2208D222009B161D /* VirtualObjectInteraction.swift */; };
+		266CDD902208D2AF009B161D /* ThresholdPanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD8F2208D2AF009B161D /* ThresholdPanGesture.swift */; };
+		266CDD932208D377009B161D /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD922208D377009B161D /* FocusSquare.swift */; };
+		266CDD952208D3B4009B161D /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD942208D3B4009B161D /* FocusSquareSegment.swift */; };
+		266CDD982208D3E1009B161D /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD972208D3E1009B161D /* StatusViewController.swift */; };
+		266CDD9A2208D441009B161D /* VirtualObjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD992208D441009B161D /* VirtualObjectSelection.swift */; };
+		266CDD9D2208D518009B161D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CDD9C2208D518009B161D /* Utilities.swift */; };
 		26FA6B3D21D2AE6400AC5998 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA6B3C21D2AE6400AC5998 /* AppDelegate.swift */; };
-		26FA6B3F21D2AE6400AC5998 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FA6B3E21D2AE6400AC5998 /* art.scnassets */; };
+		26FA6B3F21D2AE6400AC5998 /* Model.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FA6B3E21D2AE6400AC5998 /* Model.scnassets */; };
 		26FA6B4121D2AE6400AC5998 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA6B4021D2AE6400AC5998 /* ViewController.swift */; };
 		26FA6B4421D2AE6400AC5998 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA6B4221D2AE6400AC5998 /* Main.storyboard */; };
 		26FA6B4621D2AE6500AC5998 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26FA6B4521D2AE6500AC5998 /* Assets.xcassets */; };
 		26FA6B4921D2AE6500AC5998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FA6B4721D2AE6500AC5998 /* LaunchScreen.storyboard */; };
 		26FA6B5421D2AE6500AC5998 /* NeverMindTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA6B5321D2AE6500AC5998 /* NeverMindTests.swift */; };
 		26FA6B5F21D2AE6500AC5998 /* NeverMindUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA6B5E21D2AE6500AC5998 /* NeverMindUITests.swift */; };
+		26FA6B7221D9D78300AC5998 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA6B7121D9D78300AC5998 /* VirtualObject.swift */; };
+		26FA6B7421D9D88F00AC5998 /* VirtualObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FA6B7321D9D88F00AC5998 /* VirtualObjectARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +48,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		266CDD8521FB8246009B161D /* VirtualObjectLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectLoader.swift; sourceTree = "<group>"; };
+		266CDD872208CCB5009B161D /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		266CDD892208D16F009B161D /* ViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Actions.swift"; sourceTree = "<group>"; };
+		266CDD8B2208D1C2009B161D /* ViewController+ObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ObjectSelection.swift"; sourceTree = "<group>"; };
+		266CDD8D2208D222009B161D /* VirtualObjectInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectInteraction.swift; sourceTree = "<group>"; };
+		266CDD8F2208D2AF009B161D /* ThresholdPanGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPanGesture.swift; sourceTree = "<group>"; };
+		266CDD922208D377009B161D /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		266CDD942208D3B4009B161D /* FocusSquareSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
+		266CDD972208D3E1009B161D /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		266CDD992208D441009B161D /* VirtualObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelection.swift; sourceTree = "<group>"; };
+		266CDD9C2208D518009B161D /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		26FA6B3921D2AE6400AC5998 /* NeverMind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeverMind.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FA6B3C21D2AE6400AC5998 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		26FA6B3E21D2AE6400AC5998 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		26FA6B3E21D2AE6400AC5998 /* Model.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = Model.scnassets; sourceTree = "<group>"; };
 		26FA6B4021D2AE6400AC5998 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		26FA6B4321D2AE6400AC5998 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		26FA6B4521D2AE6500AC5998 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +73,8 @@
 		26FA6B5A21D2AE6500AC5998 /* NeverMindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeverMindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FA6B5E21D2AE6500AC5998 /* NeverMindUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeverMindUITests.swift; sourceTree = "<group>"; };
 		26FA6B6021D2AE6500AC5998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26FA6B7121D9D78300AC5998 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		26FA6B7321D9D88F00AC5998 /* VirtualObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		266CDD912208D367009B161D /* Focus Square */ = {
+			isa = PBXGroup;
+			children = (
+				266CDD922208D377009B161D /* FocusSquare.swift */,
+				266CDD942208D3B4009B161D /* FocusSquareSegment.swift */,
+			);
+			path = "Focus Square";
+			sourceTree = "<group>";
+		};
+		266CDD962208D3CE009B161D /* Additional View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				266CDD972208D3E1009B161D /* StatusViewController.swift */,
+				266CDD992208D441009B161D /* VirtualObjectSelection.swift */,
+			);
+			path = "Additional View Controllers";
+			sourceTree = "<group>";
+		};
+		266CDD9B2208D4F0009B161D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				266CDD9C2208D518009B161D /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		26FA6B3021D2AE6400AC5998 = {
 			isa = PBXGroup;
 			children = (
@@ -100,12 +152,22 @@
 			isa = PBXGroup;
 			children = (
 				26FA6B3C21D2AE6400AC5998 /* AppDelegate.swift */,
-				26FA6B3E21D2AE6400AC5998 /* art.scnassets */,
 				26FA6B4021D2AE6400AC5998 /* ViewController.swift */,
+				266CDD872208CCB5009B161D /* ViewController+ARSCNViewDelegate.swift */,
+				266CDD892208D16F009B161D /* ViewController+Actions.swift */,
+				266CDD8B2208D1C2009B161D /* ViewController+ObjectSelection.swift */,
+				266CDD8D2208D222009B161D /* VirtualObjectInteraction.swift */,
+				266CDD8F2208D2AF009B161D /* ThresholdPanGesture.swift */,
+				26FA6B7321D9D88F00AC5998 /* VirtualObjectARView.swift */,
 				26FA6B4221D2AE6400AC5998 /* Main.storyboard */,
+				26FA6B7021D9D76600AC5998 /* Virtual Objects */,
+				266CDD912208D367009B161D /* Focus Square */,
+				266CDD962208D3CE009B161D /* Additional View Controllers */,
+				266CDD9B2208D4F0009B161D /* Utilities */,
 				26FA6B4521D2AE6500AC5998 /* Assets.xcassets */,
 				26FA6B4721D2AE6500AC5998 /* LaunchScreen.storyboard */,
 				26FA6B4A21D2AE6500AC5998 /* Info.plist */,
+				26FA6B6C21D2DA9B00AC5998 /* Resources */,
 			);
 			path = NeverMind;
 			sourceTree = "<group>";
@@ -126,6 +188,23 @@
 				26FA6B6021D2AE6500AC5998 /* Info.plist */,
 			);
 			path = NeverMindUITests;
+			sourceTree = "<group>";
+		};
+		26FA6B6C21D2DA9B00AC5998 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26FA6B3E21D2AE6400AC5998 /* Model.scnassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		26FA6B7021D9D76600AC5998 /* Virtual Objects */ = {
+			isa = PBXGroup;
+			children = (
+				26FA6B7121D9D78300AC5998 /* VirtualObject.swift */,
+				266CDD8521FB8246009B161D /* VirtualObjectLoader.swift */,
+			);
+			path = "Virtual Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +311,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26FA6B3F21D2AE6400AC5998 /* art.scnassets in Resources */,
+				26FA6B3F21D2AE6400AC5998 /* Model.scnassets in Resources */,
 				26FA6B4921D2AE6500AC5998 /* LaunchScreen.storyboard in Resources */,
 				26FA6B4621D2AE6500AC5998 /* Assets.xcassets in Resources */,
 				26FA6B4421D2AE6400AC5998 /* Main.storyboard in Resources */,
@@ -261,7 +340,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				26FA6B4121D2AE6400AC5998 /* ViewController.swift in Sources */,
+				266CDD9A2208D441009B161D /* VirtualObjectSelection.swift in Sources */,
+				266CDD9D2208D518009B161D /* Utilities.swift in Sources */,
+				266CDD8621FB8246009B161D /* VirtualObjectLoader.swift in Sources */,
 				26FA6B3D21D2AE6400AC5998 /* AppDelegate.swift in Sources */,
+				266CDD882208CCB5009B161D /* ViewController+ARSCNViewDelegate.swift in Sources */,
+				266CDD982208D3E1009B161D /* StatusViewController.swift in Sources */,
+				266CDD8A2208D16F009B161D /* ViewController+Actions.swift in Sources */,
+				266CDD902208D2AF009B161D /* ThresholdPanGesture.swift in Sources */,
+				266CDD8C2208D1C2009B161D /* ViewController+ObjectSelection.swift in Sources */,
+				26FA6B7221D9D78300AC5998 /* VirtualObject.swift in Sources */,
+				266CDD8E2208D222009B161D /* VirtualObjectInteraction.swift in Sources */,
+				266CDD932208D377009B161D /* FocusSquare.swift in Sources */,
+				266CDD952208D3B4009B161D /* FocusSquareSegment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26FA6B7421D9D88F00AC5998 /* VirtualObjectARView.swift in Sources */,
 				26FA6B5421D2AE6500AC5998 /* NeverMindTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
